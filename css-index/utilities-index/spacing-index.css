@@ -1,0 +1,25 @@
+.topic {
+    margin: 1% 0;
+}
+.topic>.drop-down {
+    padding: .5% 0;
+    padding-left: 2%;
+}
+.topic>.drop-down>img {
+    margin-left: 2.5%;
+}
+.topic>.sub-topics-container,
+.topic ul.sub-resources-container {
+    margin-top: 1%;
+    margin-left: 2%;
+    gap: 1%;
+}
+
+.resource>img {
+    margin-left: 1.26%;
+}
+
+.sub-resources-container>a.resource {
+    margin-top: 2%;
+    margin-left: 5%;
+}

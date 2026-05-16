@@ -1,0 +1,32 @@
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.topics-container {
+    overflow-y: scroll;
+}
+.topic {
+    display: flex;
+    flex-direction: column;
+}
+.topic>.drop-down {
+    display: flex;
+}
+.topics-container > .topic > .sub-topics-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.topics-container>.topic>ul.sub-resources-container>li {
+    flex-direction: column;
+}
+.sub-topics-container > .topic > .sub-resources-container {
+    display: flex;
+    gap: 1%;
+}
+.sub-resources-container > a.resource {
+    
+    flex-basis: 20%;
+    display: inline-flex;
+    flex-direction: column;
+}

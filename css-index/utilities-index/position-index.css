@@ -1,0 +1,4 @@
+.page-wrapper>footer.mobile-footer-header {
+    position: fixed;
+    bottom: 0;
+}
