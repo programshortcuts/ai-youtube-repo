@@ -1,11 +1,6 @@
-.topic>.drop-topic {
-    border: 1px solid black;
-}
+
 .resource {
     border: 1px solid black;
-}
-.sub-topics-container>.drop-topic {
-    border: none;
 }
 
 .sub-resources-container>a.resource {

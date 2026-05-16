@@ -1,11 +1,10 @@
-.sub-topics-container>.drop-topic {
-    background-color: blue;
-}
+
 a.resource:visited {
     color: blue;
 }
 .topic>.drop-down {
     border: 1px solid black;
+    background: rgb(0,0,0,0);
 }
 .page-wrapper>footer.mobile-footer-header {
     background-color: white;
