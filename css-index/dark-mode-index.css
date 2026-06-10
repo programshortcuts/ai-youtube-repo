@@ -43,5 +43,5 @@ h4 .dark-mode p {
     color: whitesmoke;
 }
 .dark-mode .topics-container > .topic {
-    border: 1px solid whitesmoke !important;
+    /* border: 1px solid whitesmoke !important; */
 }

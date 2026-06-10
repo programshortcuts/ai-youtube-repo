@@ -1,7 +1,7 @@
 .page-header.grid {
-    .box {
-        border: 1px solid black;
-    }
+}
+.box {
+    border: 1px solid black;
 }
 nav#navBarLessonTitle{
     border-bottom: 1px solid black;

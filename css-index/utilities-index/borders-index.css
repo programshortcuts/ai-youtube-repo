@@ -1,8 +1,13 @@
-
+/* border-index.css */
 .resource {
     border: 1px solid black;
 }
 
 .sub-resources-container>a.resource {
     border: 1px solid black;
+}
+
+canvas {
+
+    border: 1px solid white;
 }

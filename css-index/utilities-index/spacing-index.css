@@ -1,13 +1,16 @@
 .topic {
     margin: 1% 0;
 }
+
 .topic>.drop-down {
     padding: .5% 0;
     padding-left: 2%;
 }
+
 .topic>.drop-down>img {
     margin-left: 2.5%;
 }
+
 .topic>.sub-topics-container,
 .topic ul.sub-resources-container {
     margin-top: 1%;
