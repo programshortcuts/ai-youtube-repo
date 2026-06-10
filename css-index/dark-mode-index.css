@@ -29,7 +29,7 @@ h4 .dark-mode p {
 
 .dark-mode .resource,
 .dark-mode .main-links a{
-    border: 1px solid whitesmoke;
+    /* border: 1px solid whitesmoke; */
     color: white;
 }
 .dark-mode .main-links a:active,.dark-mode .main-links a:focus{
@@ -42,6 +42,6 @@ h4 .dark-mode p {
 .dark-mode .resource:visited{
     color: whitesmoke;
 }
-.dark-mode .topic {
+.dark-mode .topics-container > .topic {
     border: 1px solid whitesmoke !important;
 }
