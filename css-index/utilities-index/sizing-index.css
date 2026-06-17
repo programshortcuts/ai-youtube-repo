@@ -20,7 +20,7 @@ a.resource {
 }
 canvas {
     width: 100vw;
-    height: 250px
+    height: 150px
 }
 @media screen and (max-width:720px) {
     .resource {
