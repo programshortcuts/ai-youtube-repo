@@ -7,7 +7,7 @@ addEventListener('DOMContentLoaded', () => {
         // only react to single alphanumeric keys
         if (key.length !== 1 || !/^[a-z0-9]$/.test(key)) return;
 
-        const allAs = [...document.querySelectorAll('a, [id]')].filter(el => {
+        const allAs = [...document.querySelectorAll('[data-nav-target],.sub-resources-container a')].filter(el => {
             const rect = el.getBoundingClientRect();
             return el.offsetParent !== null && rect.width > 0 && rect.height > 0;
         });
