@@ -1,3 +1,6 @@
+*{
+    font-size: 1rem;
+}
 .topic>.sub-topics-container,
 .topic ul.sub-resources-container {
     text-decoration: none;

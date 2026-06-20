@@ -40,22 +40,32 @@
             </div>
         </header>
         <main tabindex="-1" id="mainContainer">
-            <span>add animations here</span>    
+            <!-- <span>add animations here</span>    
             <canvas>
-            </canvas>
+            </canvas> -->
             <div class="topics-container">
                 <h2>Topics</h2>
                 <!-- Local LLMS-->
                 <div class="topic">
-                    <button data-nav-target="local-llms" id="localLLMs" class="drop-down">Local LLMS</button>                    
+                    <button data-nav-target="local-llms" id="localLLMs" class="drop-down topic-title">Local LLMS</button>                    
                     <ul class="sub-topics-container drop-snips show">
                         <li class="topic">
-                            <!-- This should be buton -->
-                            <button data-nav-target="ollama-local" id="ollamaLocal" class="drop-down">Ollama (local)</button>
+                            <button data-nav-target="comfyUI" id="comfyUI" class="drop-down sub-topic-title">ComfyUI (local)</button>
+                            <div class="sub-resources-container drop-snips show">
+                                <a rel="noopener noreferrer" tabindex="0" id="mango-borgo-install-comfyUI-mac" class="resource" href="https://programshortcuts.github.io/comfyUI-repo/resources/mango-borgo/install-comfyUI-mac/install-comfyUI-mac.html">
+                                    Mango Borgo
+                                    <img src="images/magno-borgo-yt-icon.jpg" alt="">
+                                    <sup>Installing ComfyUI Silicon Macs (Feb 2026)</sup>
+                        
+                                </a>
+                        
+                            </div>
+                        </li>
+                        <li class="topic">
+                            <button data-nav-target="ollama-local" id="ollamaLocal" class="drop-down sub-topic-title">Ollama (local)</button>
                             <div class="sub-resources-container drop-snips show">
                                 <a rel="noopener noreferrer" tabindex="0" id="mike-vibe-code-ollamaFullBegin" class="resource"
-                                 href="https://programshortcuts.github.io/mikey-vibe-coding-repo/topics/01-ollama-full-tutorial-begin/index-mikey.html
-                                                                    ">
+                                 href="">
                                     Mikey Vibe Coding
                                     <img src="images/01-ollama-full-begin.jpeg" alt="">
                                     <sup>Ollama Full Begin</sup>
@@ -80,11 +90,12 @@
                                 </a>
                             </div>
                         </li>
+                        
                     </ul>
                 </div>
                 <!-- AGENTS -->
                 <div class="topic">
-                    <button data-nav-target="agents-ai" id="agentsAi" class="drop-down"> Agents - AI</button>
+                    <button data-nav-target="agents-ai" id="agentsAi" class="drop-down topic-title"> Agents - AI</button>
                     
                     <ul class="sub-topics-container drop-snips ">
                         <li class="topic">
@@ -101,7 +112,7 @@
                 </div>
                 <!-- BOTS -->
                 <div class="topic">
-                    <button data-nav-target="bots-ai" id="botsAi" class="drop-down">Bots - AI</button>
+                    <button data-nav-target="bots-ai" id="botsAi" class="drop-down topic-title">Bots - AI</button>
                     <ul class="sub-topics-container drop-snips ">
                         <li class="topic">
                             <a rel="noopener noreferrer" tabindex="0" id="" class="drop-down" 
