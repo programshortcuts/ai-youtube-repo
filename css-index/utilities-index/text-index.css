@@ -8,3 +8,7 @@
 a.resource {
     text-decoration: none;
 }
+
+#mainContainer  .explain-txt {
+    font-size: 80%;
+}

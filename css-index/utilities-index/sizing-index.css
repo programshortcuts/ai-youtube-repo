@@ -1,3 +1,6 @@
+#mainContainer{
+    height: 90vmax;
+}
 .page-header img,
 .topic>.drop-down>img {
     max-height: 50px;
@@ -19,8 +22,8 @@ a.resource {
     width: 100%;
 }
 canvas {
-    width: 100vw;
-    height: 150px
+    /* width: 100vw; */
+    /* height: 150px */
 }
 @media screen and (max-width:720px) {
     .resource {
