@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ai-youtube</title>
     <link rel="stylesheet" href="css-index/main-index.css">
-    <link rel="stylesheet" href="css-index/dark-mode-index.css">
 
     <script type="module" src="js-index/index-script.js" defer ></script>        
     <script src="js-index/letterFocus-txt-nums.js" defer></script>
     <script src="js-index/dark-mode-index.js" defer></script>
-        
+    <!-- script-src 'self' 'unsafe-inline' ;  -->
     <meta http-equiv="Content-Security-Policy" content="
         default-src 'self';
-        script-src 'self' 'unsafe-inline' ;
+        script-src 'self' 'unsafe-inline' ; 
         style-src  'self' https://cdn.jsdelivr.net;
         font-src 'self' https://unpkg.com data:;
         img-src 'self' data:;
@@ -31,7 +30,7 @@
                 <h1>ai-youtube
                 </h1>
                 <article>
-                    
+     
                     <p>
                         I'm 95% sure, <span >This page letter-focus WRONG</span> replace with Chatbots intro BO SAR keyboard-nav.js script
                     </p>
@@ -43,21 +42,10 @@
             <!-- <span>add animations here</span>    
             <canvas>
             </canvas> -->
-            <article class="explain-txt">
-                <p>
-                    This , along with all my other pages, have no association with any of the Youtube channels or companies or
-                    anything period. These pages are purely mad for my own personal documentation, Allowing me to access code and
-                    examples
-                    learned from them quickly. My pages are available for all, email me and
-                    <code tabindex="0" class="copy-code">programshortcuts@gmail.com
-                                    </code>
-                    to collab.
             
-            
-                </p>
-            </article>
             <div class="topics-container">
-                <h2>Topics</h2>
+                <h2 tabindex="0" id="topics">Topics</h2>
+                
                 <!-- Local LLMS-->
                 <div class="topic">
                     <button data-nav-target="local-llms" id="localLLMs" class="drop-down topic-title">Local LLMS</button>                    
@@ -81,22 +69,15 @@
                                 <a rel="noopener noreferrer" tabindex="0" id="videoModels06" class="resource "
                                     href="topics/06-VideoModels/06-VideoModels.html">
                                     06 ComfyUI Video Models: InfiniteTalk + Wan 2.2 + SCAIL + LTX-2 (Ep06)
-                                    <img src="topics/01-LearnComfyUIFromScratch/images/pixaroma01-LearnComfyUIFromScratch.jpg">
+                                    <img src="images/pixaroma01-LearnComfyUIFromScratch.jpg">
                                 </a>
-                        
                             </div>
                         </li>
                         <!-- LM Studio -->
                         <li class="topic">
                             <button data-nav-target="ollama-local" id="ollamaLocal" class="drop-down sub-topic-title">LM Studio</button>
                             <div class="sub-resources-container drop-snips show">
-                                <a rel="noopener noreferrer" tabindex="0" id="mike-vibe-code-ollamaFullBegin" class="resource"
-                                 href="https://programshortcuts.github.io/indently-youtube-repo/topics/playlists/01-build-local-ai-python/01-/01-.html">
-                                    Indently
-                                    <img src="images/01-build-local-ai-python.jpeg" alt="">
-                                    <sup>build-local-ai-python-playlist</sup>
                                 
-                                </a>
                                 <!-- WebDevSimp -->
                                 <a rel="noopener noreferrer" tabindex="0" id="web-dev-simp-freeLocal" class="resource" href="
                                         https://programshortcuts.github.io/web-dev-simp-repo/topics/01-free-local-llms/01-free-local-llms.html
@@ -104,6 +85,25 @@
                                     <img src="images/01-free-local-agent-code-workflow-26.jpeg" alt="">
                                     <sup>free local</sup>
                                 </a>
+                                <!-- python-ai-->
+                            </div>
+                            <div class="topic">
+                                <button data-nav-target="python-ai" id="python-ai" class="drop-down topic-title">python ai</button>                    
+                                <ul class="sub-topics-container drop-snips show">
+                                    <!-- ComfyUI -->
+                                    <li class="topic">
+                                        <button data-nav-target="comfyUI" id="comfyUI" class="drop-down sub-topic-title">ComfyUI (local)</button>
+                                        <div class="sub-resources-container drop-snips show">
+                                            <a rel="noopener noreferrer" tabindex="0" id="mike-vibe-code-ollamaFullBegin" class="resource"
+                                            href="https://programshortcuts.github.io/indently-youtube-repo/topics/playlists/01-build-local-ai-python/01-/01-.html">
+                                                Indently
+                                                <img src="images/01-build-local-ai-python.jpeg" alt="">
+                                                <sup>build-local-ai-python-playlist</sup>
+                                            
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </li>
                         <li class="topic">
@@ -180,7 +180,7 @@
                                 <br><sub class="x-sm-txt">Learn Ollama in 15 Minutes - Run LLM Models Locally for FREE
                             </a> -->
                             <div class="sub-resources-container drop-snips ">
-                                <a rel="noopener noreferrer" autofocus  tabindex="0" id="boSarAiChatBot2025" 
+                                <a rel="noopener noreferrer"   tabindex="0" id="boSarAiChatBot2025" 
                                 class="resource" href="topics/chatbots/01-bo-Sar-howToBuildAi-2025/index-sidebar-temp.html">
                                     Bo Sar - ai chatbot <sup>2025</sup>
                                     
@@ -192,6 +192,14 @@
                     </ul>
                 </div>
             </div>
+            <article class="explain-txt">
+                <p>
+                    This site has no association with any of the Youtube channels or companies or
+                    anything period. These pages are purely made for my own personal documentation, 
+                    for quick access to code and examples
+            
+                </p>
+            </article>
         </main>
         <nav class="styles-btns">
             <div class="btn-container">
@@ -213,6 +221,7 @@
             
             </a>
         </footer>
+
     </div>
 </body>
 </html>

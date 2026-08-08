@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-}
+
 
 .page-wrapper > footer.mobile-footer-header {
     display: flex;
@@ -71,7 +67,7 @@
         /* padding-top: 5%; */
         /* height: 68vh; */
         margin: 0;
-        margin-left: 4%;
+        /* margin-left: 4%; */
         /* padding-bottom: 5%; */
     }
 }

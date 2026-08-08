@@ -1,6 +1,10 @@
-#mainContainer{
-    height: 90vmax;
+#mainContainer {
+    width: 100vmax !important;
+    border: 5px solid white;
+    height: 90vh;
 }
+
+
 .page-header img,
 .topic>.drop-down>img {
     max-height: 50px;
@@ -9,22 +13,31 @@
 .topics-container>.topic>ul.sub-resources-container>li {
     height: 5vh;
 }
+
 .sub-resources-container>a.resource {
     /* min-width: 15vw; */
 }
+
 a.resource {
     height: 100%;
+    max-height: 150px;
+    /* max-width:  min-content; */
 }
-.resource>img {    
-    max-height: 50px;
+
+.resource>img {
+    width: 100%;
+    height: 100%;
 }
+
 .page-wrapper>footer.mobile-footer-header {
     width: 100%;
 }
+
 canvas {
     /* width: 100vw; */
     /* height: 150px */
 }
+
 @media screen and (max-width:720px) {
     .resource {
         min-width: 100px !important;

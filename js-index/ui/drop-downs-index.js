@@ -6,8 +6,9 @@ export function initDropDowns() {
     document.addEventListener("keydown", handleToggle);
     function handleToggle(e) {
         let target;
-
+        
         if (e.type === "keydown") {
+            hideTopicSnips()
             if ((e.key === "Enter" || e.key === " ")
                 && document.activeElement.classList.contains("drop-down")) {
                 // e.preventDefault();
@@ -34,6 +35,7 @@ export function hideTopicSnips() {
 
     dropSnips.forEach(el => {
         if (!el.classList.contains('show')) {
+            el.classList.remove('show')
             el.classList.add('hide')
         }
     })

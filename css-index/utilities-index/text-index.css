@@ -1,5 +1,6 @@
 *{
     font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .topic>.sub-topics-container,
 .topic ul.sub-resources-container {

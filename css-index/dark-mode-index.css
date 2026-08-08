@@ -45,3 +45,6 @@ h4 .dark-mode p {
 .dark-mode .topics-container > .topic {
     /* border: 1px solid whitesmoke !important; */
 }
+.dark-mode .drop-down {
+    border: whitesmoke !important;
+}

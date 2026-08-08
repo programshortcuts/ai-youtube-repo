@@ -1,5 +1,6 @@
 
 @import url('mobile-footer-header.css');
+@import url('dark-mode-index.css');
 /* @import url('responsive-index.css'); */
 /* ui */
 @import url('ui/drop-down.css');
@@ -16,9 +17,11 @@
     margin:0; 
     padding:0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
 }
-
+#mainContainer {
+    border: 1px solid red
+}
 .hide {
     display: none !important;
     /* opacity: 0; */

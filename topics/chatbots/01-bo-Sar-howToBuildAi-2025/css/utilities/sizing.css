@@ -1,13 +1,12 @@
+
 .page-header.grid {
+    
     .box {
         width: 100%;
     }
     .box > .a {
-        border: 1px solid red;
-        height: 100%;
         width: 100%;
     }
-    
 }
 .tutorialLink-darkModeBtn-container a#tutorialLink img {
     width: 90%;
