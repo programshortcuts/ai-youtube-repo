@@ -1,17 +1,28 @@
-@media screen and (max-width:720px) {
-    .topic>.sub-topics-container,
-    .topic ul.sub-resources-container {
-        /* margin-top: 4%; */
+@media screen and (min-width:803px) {
+    .sub-resources-container>a.resource {
+        flex-basis: 20%;
     }
 }
-@media screen and (max-width:672px) {
+@media screen and (max-width:802px) {
     
+
     .resource>img {
-        /* max-width: 50px; */
+        max-width: 100px;
+        min-width: 100px;
     }
-    .sub-topics-container>.topic>.sub-resources-container {
-        
-        flex-basis:50% !important;
-        flex-wrap: wrap;
+    
+    .topics-container > .topic {
+        margin-bottom: 5%;
+    }
+    .topics-container > .topic > .sub-topics-container {
+        /* flex-direction: column; */
+        flex-basis: 25%;
+    }
+    .sub-resources-container > a.resource {
+        flex-basis: 33%;
+    }
+    .sub-resources-container > a.resource ,
+    .sub-resources-container > a.resource *{
+        font-size: 50%;
     }
 }
