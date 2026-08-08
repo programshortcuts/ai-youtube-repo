@@ -5,13 +5,13 @@
     }
 }
 @media screen and (max-width:672px) {
-    .topic>.sub-topics-container,
-    .topic ul.sub-resources-container {
-        /* margin: 2.5% 0; */
-        /* padding-top: 2%; */
-    }
-
+    
     .resource>img {
         /* max-width: 50px; */
+    }
+    .sub-topics-container>.topic>.sub-resources-container {
+        
+        flex-basis:50% !important;
+        flex-wrap: wrap;
     }
 }

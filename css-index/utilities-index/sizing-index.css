@@ -1,6 +1,5 @@
 #mainContainer {
-    width: 100vmax !important;
-    border: 5px solid white;
+    width: 100vw !important;
     height: 90vh;
 }
 

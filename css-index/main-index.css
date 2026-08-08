@@ -1,7 +1,7 @@
 
 @import url('mobile-footer-header.css');
 @import url('dark-mode-index.css');
-/* @import url('responsive-index.css'); */
+@import url('responsive-index.css');
 /* ui */
 @import url('ui/drop-down.css');
 /* utilities */
@@ -19,9 +19,7 @@
     box-sizing: border-box;
    
 }
-#mainContainer {
-    border: 1px solid red
-}
+
 .hide {
     display: none !important;
     /* opacity: 0; */

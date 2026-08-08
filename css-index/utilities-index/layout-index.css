@@ -33,6 +33,7 @@
 .sub-topics-container > .topic > .sub-resources-container {
     /* min-height: fit-content; */
     display: flex;
+    
     /* gap: 1%; */
     flex-wrap: wrap;
 }
