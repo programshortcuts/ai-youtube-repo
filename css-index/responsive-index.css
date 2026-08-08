@@ -1,4 +1,10 @@
 @media screen and (min-width:783px) {
+    .sub-topics-container{
+        flex-direction: row;
+        /* background-color: white; */
+    }
+    .sub-topics-container > .topic{
+    }
     .sub-resources-container>a.resource {
         flex-basis: 15%;
         font-size: 80%;
@@ -13,15 +19,15 @@
     }
     
     .topics-container > .topic {
-        margin-bottom: 5%;
+        /* margin-bottom: 5%; */
     }
     .topics-container > .topic > .sub-topics-container {
         /* flex-direction: column; */
-        flex-basis: 25%;
+        /* flex-basis: 15%; */
     }
     .sub-resources-container > a.resource {
         /* flex-basis: 33%; */
-        flex: 0 0 10%;   
+        /* flex: 0 0 10%;    */
     }
     .sub-resources-container > a.resource ,
     .sub-resources-container > a.resource *{

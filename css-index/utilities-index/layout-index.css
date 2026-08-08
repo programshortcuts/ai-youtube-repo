@@ -4,7 +4,6 @@
 #mainContainer {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
 }
 .topics-container {
     display: flex;
@@ -16,7 +15,6 @@
 }
 .topics-container > .topic {
     display: flex;
-    flex-basis: 33%;
     flex-direction: column;
 }
 .topic>.drop-down {
@@ -25,17 +23,14 @@
 .topics-container > .topic > .sub-topics-container {
     display: flex;
     flex-direction: column;
-    flex-basis: 25%;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     flex-wrap: wrap;
 }
 
 .sub-topics-container > .topic > .sub-resources-container {
-    /* min-height: fit-content; */
     display: flex;
-    /* gap: 1%; */
     flex-wrap: wrap;
 }
 .sub-resources-container > a.resource {
-    flex: 0 0 20%;   
+    flex: 0 0 15%;   
 }

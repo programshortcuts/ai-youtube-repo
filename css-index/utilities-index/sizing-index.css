@@ -2,18 +2,6 @@
     width: 100vw !important;
     height: 90vh;
 }
-.page-header img,
-.topic>.drop-down>img {
-    /* max-height: 50px; */
-}
-
-.topics-container>.topic>ul.sub-resources-container>li {
-    /* height: 5vh; */
-}
-
-.sub-resources-container>a.resource {
-    /* min-width: 15vw; */
-}
 
 a.resource {
     height: 100%;
@@ -22,8 +10,8 @@ a.resource {
 }
 
 .resource>img {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
 }
 
 .page-wrapper>footer.mobile-footer-header {
