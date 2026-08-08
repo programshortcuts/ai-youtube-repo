@@ -1,9 +1,14 @@
 @media screen and (min-width:783px) {
-    .sub-topics-container{
-        flex-direction: row;
+    .topics-container {
+        flex-direction: row !important;
         /* background-color: white; */
+        flex-wrap: wrap;
     }
-    .sub-topics-container > .topic{
+    #localLLMSs
+    .topics-container > .topic{
+        /* background-color: grey; */
+        /* border: 1px solid red; */
+        flex-basis: 45% !important;
     }
     .sub-resources-container>a.resource {
         flex-basis: 15%;
