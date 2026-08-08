@@ -1,9 +1,10 @@
-@media screen and (min-width:803px) {
+@media screen and (min-width:783px) {
     .sub-resources-container>a.resource {
-        flex-basis: 20%;
+        flex-basis: 15%;
+        font-size: 80%;
     }
 }
-@media screen and (max-width:802px) {
+@media screen and (max-width:782px) {
     
 
     .resource>img {
@@ -19,7 +20,8 @@
         flex-basis: 25%;
     }
     .sub-resources-container > a.resource {
-        flex-basis: 33%;
+        /* flex-basis: 33%; */
+        flex: 0 0 10%;   
     }
     .sub-resources-container > a.resource ,
     .sub-resources-container > a.resource *{
