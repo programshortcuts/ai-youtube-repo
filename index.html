@@ -43,54 +43,32 @@
             <canvas>
             </canvas> -->
             
+            <h2 tabindex="0" id="topics">Topics</h2>
             <div class="topics-container">
-                <h2 tabindex="0" id="topics">Topics</h2>
-                <!-- python ai -->
-                <div class="topic">
-                    <button data-nav-target="python-ai" id="python-ai" class="drop-down topic-title">python ai</button>                    
-                    <ul class="sub-topics-container drop-snips ">
-                        <li class="topic">
-                            <button data-nav-target="lm-studio-python" id="lmStudioPython" class="drop-down sub-topic-title">lm-studio-python</button>        
-                            <div class="sub-resources-container drop-snips show">
-                                <a rel="noopener noreferrer" tabindex="0" id="mike-vibe-code-ollamaFullBegin" class="resource"
-                                href="https://programshortcuts.github.io/indently-youtube-repo/topics/playlists/01-build-local-ai-python/01-/01-.html">
-                                    Indently
-                                    <img src="images/01-build-local-ai-python.jpeg" alt="">
-                                    <sup>build-local-ai-python-playlist</sup>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                    
-                </div>
-                <!-- Tools - AI -->
-                <div class="topic">
-                    <button data-nav-target="tools-ai" id="toolsAi" class="drop-down topic-title">tools-ai</button>                    
-                    <ul class="sub-topics-container drop-snips ">
-                        <!-- codex -->
-                        <li class="topic">
-                            <button data-nav-target="codex" id="codex" class="drop-down sub-topic-title">Codex</button>
-                            <div class="sub-resources-container drop-snips show">
-                                <a rel="noopener noreferrer" tabindex="0" id="mango-borgo-install-comfyUI-mac" class="resource"
-                                 href="https://programshortcuts.github.io/tech-with-tim-ai-repo/topics/codex/01-codex/01-codex.html">
-                                    Tech With Tim
-                                    <img src="images/codex.jpeg" alt="">
-                                    <sup>Codex - Full Course for Beginners (Jul 2026)</sup>
-                        
-                                </a>
-                                
-                            </div>
-                        </li>
-                    </ul>
-                </div>
                 <!-- Local LLMS-->
                 <div class="topic">
                     <button data-nav-target="local-llms" id="localLLMs" class="drop-down topic-title">Local LLMS</button>                    
-                    <ul class="sub-topics-container drop-snips ">
+                    <ul class="sub-topics-container drop-snips show ">
+                        <!-- Open WebUI + Ollama -->
+                        <li class="topic">
+                            <button data-nav-target="open-webui-ollama" id="openWebUI-Ollama" 
+                                class="drop-down sub-topic-title">Open WebUI + Ollama
+                            </button>
+                            <div class="sub-resources-container drop-snips show">
+                                
+                                <!-- WebDevSimp -->
+                                <a rel="noopener noreferrer" tabindex="0" id="web-dev-simp-freeLocal" class="resource" href="
+                                        https://tstudystuff.github.io/openWebUI-youtube-Leon_van_Zyl/topics/01-/01-.html
+                                        ">openWebUU LeonVanZyl
+                                    <img src="images/01-openWebUI.jpeg" alt="">
+                                </a>
+                            </div>
+                            
+                        </li>
                         <!-- ComfyUI -->
                         <li class="topic">
                             <button data-nav-target="comfyUI" id="comfyUI" class="drop-down sub-topic-title">ComfyUI (local)</button>
-                            <div class="sub-resources-container drop-snips show">
+                            <div class="sub-resources-container drop-snips ">
                                 <a rel="noopener noreferrer" tabindex="0" id="mango-borgo-install-comfyUI-mac" class="resource"
                                  href="https://programshortcuts.github.io/comfyUI-repo/resources/mango-borgo/install-comfyUI-mac/install-comfyUI-mac.html">
                                     Mango Borgo
@@ -127,7 +105,7 @@
                         </li>
                         <li class="topic">
                             <button data-nav-target="ollama-local" id="ollamaLocal" class="drop-down sub-topic-title">Ollama (local)</button>
-                            <div class="sub-resources-container drop-snips show">
+                            <div class="sub-resources-container drop-snips ">
                                 <a rel="noopener noreferrer" tabindex="0" id="mike-vibe-code-ollamaFullBegin" class="resource"
                                  href="https://programshortcuts.github.io/mikey-vibe-coding-repo/topics/01-ollama-full-tutorial-begin/index-mikey.html">
                                     Mikey Vibe Coding
@@ -166,6 +144,45 @@
                         </li>
                     </ul>
                 </div>
+                <!-- python ai -->
+                <div class="topic">
+                    <button data-nav-target="python-ai" id="python-ai" class="drop-down topic-title">python ai</button>                    
+                    <ul class="sub-topics-container drop-snips show">
+                        <li class="topic">
+                            <button data-nav-target="lm-studio-python" id="lmStudioPython" class="drop-down sub-topic-title">lm-studio-python</button>        
+                            <div class="sub-resources-container drop-snips show">
+                                <a rel="noopener noreferrer" tabindex="0" id="mike-vibe-code-ollamaFullBegin" class="resource"
+                                href="https://programshortcuts.github.io/indently-youtube-repo/topics/playlists/01-build-local-ai-python/01-/01-.html">
+                                    Indently
+                                    <img src="images/01-build-local-ai-python.jpeg" alt="">
+                                    <sup>build-local-ai-python-playlist</sup>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <!-- Tools - AI -->
+                <div class="topic">
+                    <button data-nav-target="tools-ai" id="toolsAI" class="drop-down topic-title">tools-ai</button>                    
+                    <ul class="sub-topics-container drop-snips ">
+                        <!-- codex -->
+                        <li class="topic">
+                            <button data-nav-target="codex" id="codex" class="drop-down sub-topic-title">Codex</button>
+                            <div class="sub-resources-container drop-snips show">
+                                <a rel="noopener noreferrer" tabindex="0" id="mango-borgo-install-comfyUI-mac" class="resource"
+                                 href="https://programshortcuts.github.io/tech-with-tim-ai-repo/topics/codex/01-codex/01-codex.html">
+                                    Tech With Tim
+                                    <img src="images/codex.jpeg" alt="">
+                                    <sup>Codex - Full Course for Beginners (Jul 2026)</sup>
+                        
+                                </a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
                 <!-- BOTS -->
                 <div class="topic">
                     <button data-nav-target="bots-ai" id="botsAi" class="drop-down topic-title">Bots - AI</button>

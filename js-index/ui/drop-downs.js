@@ -3,6 +3,7 @@ const dropSnips = document.querySelectorAll('.drop-snips')
 export function initDropDowns() {
     document.addEventListener("click", handleToggle);
     document.addEventListener("keydown", handleToggle);
+    hide
     function handleToggle(e) {
         let target;
 

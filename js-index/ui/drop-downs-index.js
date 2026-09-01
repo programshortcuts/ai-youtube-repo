@@ -4,6 +4,7 @@
 
 
 // ONLY get the TOP-LEVEL .drop-snips
+const allDropSnips = document.querySelectorAll('.drop-snips')
 const dropSnips = document.querySelectorAll(
     '.topics-container > .topic > .drop-snips'
 );
@@ -11,11 +12,30 @@ const dropSnips = document.querySelectorAll(
 
 export function initDropDowns() {
 
+    // ==========================================
+    // INITIALIZE DROPDOWN STATE
+    // ==========================================
+
+    allDropSnips.forEach(el => {
+
+        // Only elements explicitly marked .show
+        // should be visible on initial load.
+        if (el.classList.contains("show")) {
+            el.classList.remove("hide");
+        } else {
+            el.classList.remove("show");
+            el.classList.add("hide");
+        }
+    });
+
+
     // Listen for mouse clicks
     document.addEventListener("click", handleToggle);
 
     // Listen for keyboard navigation
     document.addEventListener("keydown", handleToggle);
+
+
 
 
     function handleToggle(e) {

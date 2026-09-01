@@ -4,7 +4,18 @@
         /* background-color: white; */
         flex-wrap: wrap;
     }
-    #localLLMSs
+    #localLLMsContainer{
+        flex-basis: 100% !important;
+    }
+    #localLLMsContainer > .sub-topics-container {
+        flex-direction: row !important;
+    }
+    #localLLMsContainer > .sub-topics-container > .topic{
+        flex-basis: 45%;
+    }
+    #localLLMsContainer > .sub-topics-container > .topic > .sub-resources-container{
+        flex-basis: 45%;
+    }
     .topics-container > .topic{
         /* background-color: grey; */
         /* border: 1px solid red; */
