@@ -1,16 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ai-youtube</title>
-    <link rel="stylesheet" href="css-index/main-index.css">
+    <link rel="stylesheet" href="css-index/main-index.css" />
 
-    <script type="module" src="js-index/index-script.js" defer ></script>        
+    <script type="module" src="js-index/index-script.js" defer></script>
     <script src="js-index/letterFocus-txt-nums.js" defer></script>
     <script src="js-index/dark-mode-index.js" defer></script>
     <!-- script-src 'self' 'unsafe-inline' ;  -->
-    <meta http-equiv="Content-Security-Policy" content="
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
         default-src 'self';
         script-src 'self' 'unsafe-inline' ; 
         style-src  'self' https://cdn.jsdelivr.net;
@@ -20,244 +22,387 @@
         object-src 'none';
         base-uri 'none';
           form-action 'self';
-    ">
-</head>
-<body class="dark-mode">
-<!-- <body> -->
+    "
+    />
+  </head>
+  <body class="dark-mode">
+    <!-- <body> -->
     <div class="page-wrapper">
-        <header class="page-header">
-            <div class="page-title">
-                <h1>ai-youtube
-                </h1>
-                <article>
-     
-                    <p>
-                        I'm 95% sure, <span >This page letter-focus WRONG</span> replace with Chatbots intro BO SAR keyboard-nav.js script
-                    </p>
-                </article>
-                <h1>youtube-resources</h1>
-            </div>
-        </header>
-        <main tabindex="-1" id="mainContainer">
-            <!-- <span>add animations here</span>    
+      <header class="page-header">
+        <div class="page-title">
+          <h1>ai-youtube</h1>
+          <article>
+            <p>
+              I'm 95% sure, <span>This page letter-focus WRONG</span> replace
+              with Chatbots intro BO SAR keyboard-nav.js script
+            </p>
+          </article>
+          <h1>youtube-resources</h1>
+        </div>
+      </header>
+      <main tabindex="-1" id="mainContainer">
+        <!-- <span>add animations here</span>    
             <canvas>
             </canvas> -->
-            
-            <h2 tabindex="0" id="topics">Topics</h2>
-            <div class="topics-container">
-                <!-- Local LLMS-->
-                <div class="topic">
-                    <button data-nav-target="local-llms" id="localLLMs" class="drop-down topic-title">Local LLMS</button>                    
-                    <ul class="sub-topics-container drop-snips show ">
-                        <!-- Open WebUI + Ollama -->
-                        <li class="topic">
-                            <button data-nav-target="open-webui-ollama" id="openWebUI-Ollama" 
-                                class="drop-down sub-topic-title">Open WebUI + Ollama
-                            </button>
-                            <div class="sub-resources-container drop-snips show">
-                                
-                                <!-- WebDevSimp -->
-                                <a rel="noopener noreferrer" tabindex="0" id="web-dev-simp-freeLocal" class="resource" href="
+
+        <h2 tabindex="0" id="topics">Topics</h2>
+        <div class="topics-container">
+          <!-- Local LLMS-->
+          <div class="topic">
+            <button
+              data-nav-target="local-llms"
+              id="localLLMs"
+              class="drop-down topic-title"
+            >
+              Local LLMS
+            </button>
+            <ul class="sub-topics-container drop-snips show">
+              <!-- Open WebUI + Ollama -->
+              <li class="topic">
+                <button
+                  data-nav-target="open-webui-ollama"
+                  id="openWebUI-Ollama"
+                  class="drop-down sub-topic-title"
+                >
+                  Open WebUI + Ollama
+                </button>
+                <div class="sub-resources-container drop-snips show">
+                  <!-- WebDevSimp -->
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="web-dev-simp-freeLocal"
+                    class="resource"
+                    href="
                                         https://tstudystuff.github.io/openWebUI-youtube-Leon_van_Zyl/topics/01-/01-.html
-                                        ">openWebUU LeonVanZyl
-                                    <img src="images/01-openWebUI.jpeg" alt="">
-                                </a>
-                            </div>
-                            
-                        </li>
-                        <!-- ComfyUI -->
-                        <li class="topic">
-                            <button data-nav-target="comfyUI" id="comfyUI" class="drop-down sub-topic-title">ComfyUI (local)</button>
-                            <div class="sub-resources-container drop-snips ">
-                                <a rel="noopener noreferrer" tabindex="0" id="mango-borgo-install-comfyUI-mac" class="resource"
-                                 href="https://programshortcuts.github.io/comfyUI-repo/resources/mango-borgo/install-comfyUI-mac/install-comfyUI-mac.html">
-                                    Mango Borgo
-                                    <img src="images/magno-borgo-yt-icon.jpg" alt="">
-                                    <sup>Installing ComfyUI Silicon Macs (Feb 2026)</sup>
-                        
-                                </a>
-                                <a rel="noopener noreferrer" tabindex="0" id="comfyUILearnFromScratch01" class="resource "
-                                    href="https://programshortcuts.github.io/pixaroma-repo/topics/01-LearnComfyUIFromScratch/01-LearnComfyUIFromScratch.html">01
-                                    ComfyUI Course - Learn ComfyUI From Scratch | Full 5 Hour Course (Ep01)
-                                    <img src="images/pixaroma01-LearnComfyUIFromScratch.jpg">
-                                </a>
-                                <a rel="noopener noreferrer" tabindex="0" id="videoModels06" class="resource "
-                                    href="topics/06-VideoModels/06-VideoModels.html">
-                                    06 ComfyUI Video Models: InfiniteTalk + Wan 2.2 + SCAIL + LTX-2 (Ep06)
-                                    <img src="images/pixaroma01-LearnComfyUIFromScratch.jpg">
-                                </a>
-                            </div>
-                        </li>
-                        <!-- LM Studio -->
-                        <li class="topic">
-                            <button data-nav-target="ollama-local" id="ollamaLocal" class="drop-down sub-topic-title">LM Studio</button>
-                            <div class="sub-resources-container drop-snips ">
-                                
-                                <!-- WebDevSimp -->
-                                <a rel="noopener noreferrer" tabindex="0" id="web-dev-simp-freeLocal" class="resource" href="
+                                        "
+                    >openWebUU LeonVanZyl
+                    <img src="images/01-openWebUI.jpeg" alt="" />
+                  </a>
+                </div>
+              </li>
+              <!-- ComfyUI -->
+              <li class="topic">
+                <button
+                  data-nav-target="comfyUI"
+                  id="comfyUI"
+                  class="drop-down sub-topic-title"
+                >
+                  ComfyUI (local)
+                </button>
+                <div class="sub-resources-container drop-snips">
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="mango-borgo-install-comfyUI-mac"
+                    class="resource"
+                    href="https://programshortcuts.github.io/comfyUI-repo/resources/mango-borgo/install-comfyUI-mac/install-comfyUI-mac.html"
+                  >
+                    Mango Borgo
+                    <img src="images/magno-borgo-yt-icon.jpg" alt="" />
+                    <sup>Installing ComfyUI Silicon Macs (Feb 2026)</sup>
+                  </a>
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="comfyUILearnFromScratch01"
+                    class="resource"
+                    href="https://programshortcuts.github.io/pixaroma-repo/topics/01-LearnComfyUIFromScratch/01-LearnComfyUIFromScratch.html"
+                    >01 ComfyUI Course - Learn ComfyUI From Scratch | Full 5
+                    Hour Course (Ep01)
+                    <img src="images/pixaroma01-LearnComfyUIFromScratch.jpg" />
+                  </a>
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="videoModels06"
+                    class="resource"
+                    href="topics/06-VideoModels/06-VideoModels.html"
+                  >
+                    06 ComfyUI Video Models: InfiniteTalk + Wan 2.2 + SCAIL +
+                    LTX-2 (Ep06)
+                    <img src="images/pixaroma01-LearnComfyUIFromScratch.jpg" />
+                  </a>
+                </div>
+              </li>
+              <!-- LM Studio -->
+              <li class="topic">
+                <button
+                  data-nav-target="ollama-local"
+                  id="ollamaLocal"
+                  class="drop-down sub-topic-title"
+                >
+                  LM Studio
+                </button>
+                <div class="sub-resources-container drop-snips">
+                  <!-- WebDevSimp -->
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="web-dev-simp-freeLocal"
+                    class="resource"
+                    href="
                                         https://programshortcuts.github.io/web-dev-simp-repo/topics/01-free-local-llms/01-free-local-llms.html
-                                        ">Webdev Simplified
-                                    <img src="images/01-free-local-agent-code-workflow-26.jpeg" alt="">
-                                    <sup>free local</sup>
-                                </a>
-                            </div>
-                            
-                        </li>
-                        <li class="topic">
-                            <button data-nav-target="ollama-local" id="ollamaLocal" class="drop-down sub-topic-title">Ollama (local)</button>
-                            <div class="sub-resources-container drop-snips ">
-                                <a rel="noopener noreferrer" tabindex="0" id="mike-vibe-code-ollamaFullBegin" class="resource"
-                                 href="https://programshortcuts.github.io/mikey-vibe-coding-repo/topics/01-ollama-full-tutorial-begin/01-mikey.html">
-                                    Mikey Vibe Coding
-                                    <img src="images/01-ollama-full-begin.jpeg" alt="">
-                                    <sup>Ollama Full Begin</sup>
-                                
-                                </a>
-                                <a rel="noopener noreferrer" tabindex="0" id="techTimOllama15" class="resource" href="
+                                        "
+                    >Webdev Simplified
+                    <img
+                      src="images/01-free-local-agent-code-workflow-26.jpeg"
+                      alt=""
+                    />
+                    <sup>free local</sup>
+                  </a>
+                </div>
+              </li>
+              <li class="topic">
+                <button
+                  data-nav-target="ollama-local"
+                  id="ollamaLocal"
+                  class="drop-down sub-topic-title"
+                >
+                  Ollama (local)
+                </button>
+                <div class="sub-resources-container drop-snips show">
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="mike-vibe-code-ollamaFullBegin"
+                    class="resource"
+                    href="https://programshortcuts.github.io/mikey-vibe-coding-repo/topics/01-ollama-full-tutorial-begin/01-mikey.html"
+                  >
+                    Mikey Vibe Coding
+                    <img src="images/01-ollama-full-begin.jpeg" alt="" />
+                    <sup>Ollama Full Begin</sup>
+                  </a>
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="techTimOllama15"
+                    class="resource"
+                    href="
                                 https://programshortcuts.github.io/tech-with-tim-ai-repo/topics/ollama/01-ollama-mcp-26/01-ollama-mcp-26.html
                                 "
-                                    >
-                                    Tech with Tim
-                                    <img src="images/twt-ollama-26.jpeg" alt="">
-                                    <sup>Learn Ollama in 15 Minutes..</sup>
-                                </a>
-                                
-                            </div>
-                        </li>
-                        
-                    </ul>
+                  >
+                    Tech with Tim
+                    <img src="images/twt-ollama-26.jpeg" alt="" />
+                    <sup>Learn Ollama in 15 Minutes..</sup>
+                  </a>
                 </div>
-                <!-- AGENTS -->
-                <div class="topic">
-                    <button data-nav-target="agents-ai" id="agentsAi" class="drop-down topic-title"> Agents - AI</button>
-                    
-                    <ul class="sub-topics-container drop-snips ">
-                        <li class="topic">
-                            <button>tbd</button>
-                            <div class="sub-resources-container drop-snips ">
-                                <a rel="noopener noreferrer" tabindex="0" id="theRecapAiAutomations" class="resource" target="_blank"
-                                    href="https://www.youtube.com/watch?v=mnV-lXxaFhk&t=1s">
-                                    The Recap | AI Automations
-                                    
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- AGENTS -->
+          <div class="topic">
+            <button
+              data-nav-target="agents-ai"
+              id="agentsAi"
+              class="drop-down topic-title"
+            >
+              Agents - AI
+            </button>
+
+            <ul class="sub-topics-container drop-snips">
+              <li class="topic">
+                <button>tbd</button>
+                <div class="sub-resources-container drop-snips">
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="theRecapAiAutomations"
+                    class="resource"
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=mnV-lXxaFhk&t=1s"
+                  >
+                    The Recap | AI Automations
+                  </a>
                 </div>
-                <!-- python ai -->
-                <div class="topic">
-                    <button data-nav-target="python-ai" id="python-ai" class="drop-down topic-title">python ai</button>                    
-                    <ul class="sub-topics-container drop-snips show">
-                        <li class="topic">
-                            <button data-nav-target="lm-studio-python" id="lmStudioPython" class="drop-down sub-topic-title">lm-studio-python</button>        
-                            <div class="sub-resources-container drop-snips show">
-                                <a rel="noopener noreferrer" tabindex="0" id="mike-vibe-code-ollamaFullBegin" class="resource"
-                                href="https://programshortcuts.github.io/indently-youtube-repo/topics/playlists/01-build-local-ai-python/01-/01-.html">
-                                    Indently
-                                    <img src="images/01-build-local-ai-python.jpeg" alt="">
-                                    <sup>build-local-ai-python-playlist</sup>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                    
+              </li>
+            </ul>
+          </div>
+          <!-- python ai -->
+          <div class="topic">
+            <button
+              data-nav-target="python-ai"
+              id="python-ai"
+              class="drop-down topic-title"
+            >
+              python ai
+            </button>
+            <ul class="sub-topics-container drop-snips show">
+              <li class="topic">
+                <button
+                  data-nav-target="lm-studio-python"
+                  id="lmStudioPython"
+                  class="drop-down sub-topic-title"
+                >
+                  lm-studio-python
+                </button>
+                <div class="sub-resources-container drop-snips show">
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="mike-vibe-code-ollamaFullBegin"
+                    class="resource"
+                    href="https://programshortcuts.github.io/indently-youtube-repo/topics/playlists/01-build-local-ai-python/01-/01-.html"
+                  >
+                    Indently
+                    <img src="images/01-build-local-ai-python.jpeg" alt="" />
+                    <sup>build-local-ai-python-playlist</sup>
+                  </a>
                 </div>
-                <!-- Tools - AI -->
-                <div class="topic">
-                    <button data-nav-target="tools-ai" id="toolsAI" class="drop-down topic-title">tools-ai</button>                    
-                    <ul class="sub-topics-container drop-snips ">
-                        <!-- codex -->
-                        <li class="topic">
-                            <button data-nav-target="codex" id="codex" class="drop-down sub-topic-title">Codex</button>
-                            <div class="sub-resources-container drop-snips show">
-                                <a rel="noopener noreferrer" tabindex="0" id="mango-borgo-install-comfyUI-mac" class="resource"
-                                 href="https://programshortcuts.github.io/tech-with-tim-ai-repo/topics/codex/01-codex/01-codex.html">
-                                    Tech With Tim
-                                    <img src="images/codex.jpeg" alt="">
-                                    <sup>Codex - Full Course for Beginners (Jul 2026)</sup>
-                        
-                                </a>
-                                
-                            </div>
-                        </li>
-                    </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- Tools - AI -->
+          <div class="topic">
+            <button
+              data-nav-target="tools-ai"
+              id="toolsAI"
+              class="drop-down topic-title"
+            >
+              tools-ai
+            </button>
+            <ul class="sub-topics-container drop-snips">
+              <!-- codex -->
+              <li class="topic">
+                <button
+                  data-nav-target="codex"
+                  id="codex"
+                  class="drop-down sub-topic-title"
+                >
+                  Codex
+                </button>
+                <div class="sub-resources-container drop-snips show">
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="mango-borgo-install-comfyUI-mac"
+                    class="resource"
+                    href="https://programshortcuts.github.io/tech-with-tim-ai-repo/topics/codex/01-codex/01-codex.html"
+                  >
+                    Tech With Tim
+                    <img src="images/codex.jpeg" alt="" />
+                    <sup>Codex - Full Course for Beginners (Jul 2026)</sup>
+                  </a>
                 </div>
-                
-                <!-- BOTS -->
-                <div class="topic">
-                    <button data-nav-target="bots-ai" id="botsAi" class="drop-down topic-title">Bots - AI</button>
-                    <ul class="sub-topics-container drop-snips ">
-                        <li class="topic">
-                            <a rel="noopener noreferrer" tabindex="0" id="" class="drop-down" 
-                            href="#">
-                                <!-- <br><sub class="x-sm-txt">Learn Ollama in 15 Minutes - Run LLM Models Locally for FREE -->
-                            </a>
-                            <div class="sub-resources-container drop-snips ">
-                                <a rel="noopener noreferrer" tabindex="0" id="leonVanZylBotsAi" class="resource" target="_blank" href="
-                                                            https://www.youtube.com/watch?app=desktop&v=tVwdpQyjtOc">Leon van Zyl
-                                    (link for now)
-                                    
-                                </a>
-                                <a rel="noopener noreferrer" tabindex="0" id="leonVanZylBotsAi" class="resource" target="_blank" href="
-                                                            https://www.youtube.com/watch?app=desktop&v=tVwdpQyjtOc">Leon van Zyl
-                                    (link for now)
-                                    
-                                </a>
-                                
-                            </div>
-                        </li>
-                    </ul>
+              </li>
+            </ul>
+          </div>
+
+          <!-- BOTS -->
+          <div class="topic">
+            <button
+              data-nav-target="bots-ai"
+              id="botsAi"
+              class="drop-down topic-title"
+            >
+              Bots - AI
+            </button>
+            <ul class="sub-topics-container drop-snips">
+              <li class="topic">
+                <a
+                  rel="noopener noreferrer"
+                  tabindex="0"
+                  id=""
+                  class="drop-down"
+                  href="#"
+                >
+                  <!-- <br><sub class="x-sm-txt">Learn Ollama in 15 Minutes - Run LLM Models Locally for FREE -->
+                </a>
+                <div class="sub-resources-container drop-snips">
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="leonVanZylBotsAi"
+                    class="resource"
+                    target="_blank"
+                    href="
+                                                            https://www.youtube.com/watch?app=desktop&v=tVwdpQyjtOc"
+                    >Leon van Zyl (link for now)
+                  </a>
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="leonVanZylBotsAi"
+                    class="resource"
+                    target="_blank"
+                    href="
+                                                            https://www.youtube.com/watch?app=desktop&v=tVwdpQyjtOc"
+                    >Leon van Zyl (link for now)
+                  </a>
                 </div>
-                <div class="topic">
-                    <button data-nav-target="intros-ai" id="introsAi" class="drop-down">Intros</button>
-                    <ul class="sub-topics-container drop-snips ">
-                        <li class="topic">
-                            <!-- <a rel="noopener noreferrer" tabindex="0" id="chatBotsIntro" class="drop-down" href=""> chatbots intro
+              </li>
+            </ul>
+          </div>
+          <div class="topic">
+            <button data-nav-target="intros-ai" id="introsAi" class="drop-down">
+              Intros
+            </button>
+            <ul class="sub-topics-container drop-snips">
+              <li class="topic">
+                <!-- <a rel="noopener noreferrer" tabindex="0" id="chatBotsIntro" class="drop-down" href=""> chatbots intro
                                 <br><sub class="x-sm-txt">Learn Ollama in 15 Minutes - Run LLM Models Locally for FREE
                             </a> -->
-                            <div class="sub-resources-container drop-snips ">
-                                <a rel="noopener noreferrer"   tabindex="0" id="boSarAiChatBot2025" 
-                                class="resource" href="topics/chatbots/01-bo-Sar-howToBuildAi-2025/index-sidebar-temp.html">
-                                    Bo Sar - ai chatbot <sup>2025</sup>
-                                    
-                                    <sup>How to Build AI Chatbots: Full to ... Pro (Latest Update)</sup>
-                                </a>
-                                
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <article class="explain-txt">
-                <p>
-                    This site has no association with any of the Youtube channels or companies or
-                    anything period. These pages are purely made for my own personal documentation, 
-                    for quick access to code and examples
-            
-                </p>
-            </article>
-        </main>
-        <nav class="styles-btns">
-            <div class="btn-container">
-                <button id="darkModeBtn">darkmodeBtn</button>
-                <p>(<span class="lg-txt">⇧</span> + K)</p>
-            </div>
-        </nav>
-        <footer class="mobile-footer-header">
-            <div class="main-links">
-                <a  tabindex="0" id="backlink" href="https://programshortcuts.github.io/youtube-resources-repo/
-                ">&larr;back (youtube- resources)</a>
-                <a  tabindex="0" id="homelink" href="https://programshortcuts.github.io/tyler-tomani-2026/
-                            
-                            ">Home (main)</a>
-            </div>
-            <a  id="aiLogo" tabindex="0" class="topic docker-b"
-                href="https://programshortcuts.github.io/ai-youtube-repo/">
-                <h4>A.I</h4>
-            
-            </a>
-        </footer>
+                <div class="sub-resources-container drop-snips">
+                  <a
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    id="boSarAiChatBot2025"
+                    class="resource"
+                    href="topics/chatbots/01-bo-Sar-howToBuildAi-2025/index-sidebar-temp.html"
+                  >
+                    Bo Sar - ai chatbot <sup>2025</sup>
 
+                    <sup
+                      >How to Build AI Chatbots: Full to ... Pro (Latest
+                      Update)</sup
+                    >
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <article class="explain-txt">
+          <p>
+            This site has no association with any of the Youtube channels or
+            companies or anything period. These pages are purely made for my own
+            personal documentation, for quick access to code and examples
+          </p>
+        </article>
+      </main>
+      <nav class="styles-btns">
+        <div class="btn-container">
+          <button id="darkModeBtn">darkmodeBtn</button>
+          <p>(<span class="lg-txt">⇧</span> + K)</p>
+        </div>
+      </nav>
+      <footer class="mobile-footer-header">
+        <div class="main-links">
+          <a
+            tabindex="0"
+            id="backlink"
+            href="https://programshortcuts.github.io/youtube-resources-repo/
+                "
+            >&larr;back (youtube- resources)</a
+          >
+          <a
+            tabindex="0"
+            id="homelink"
+            href="https://programshortcuts.github.io/tyler-tomani-2026/
+                            
+                            "
+            >Home (main)</a
+          >
+        </div>
+        <a
+          id="aiLogo"
+          tabindex="0"
+          class="topic docker-b"
+          href="https://programshortcuts.github.io/ai-youtube-repo/"
+        >
+          <h4>A.I</h4>
+        </a>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
