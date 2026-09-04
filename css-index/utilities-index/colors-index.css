@@ -9,3 +9,9 @@ a.resource:visited {
 .page-wrapper>footer.mobile-footer-header {
     background-color: white;
 }
+
+.topic {
+    box-shadow: 2px 0 2px 2px darkgray;
+    border: 2px solid black;
+    border-left: none
+}

@@ -1,6 +1,7 @@
+.topic {
+    padding-bottom: 3%;
+}
 .topics-container{
-    /* padding-bottom: 4%;    */
-    border: 1px solid white
 }
 .topic>.drop-down {
     /* padding: .5% 0; */
