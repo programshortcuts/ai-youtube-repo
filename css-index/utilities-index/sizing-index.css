@@ -10,7 +10,7 @@ a.resource {
 }
 
 .resource>img {
-    /* width: 100%; */
+    width: 60%;
     /* height: 100%; */
 }
 

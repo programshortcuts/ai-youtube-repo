@@ -27,10 +27,17 @@ export function initDropDowns() {
             el.classList.add("hide");
         }
     });
+
+
     // Listen for mouse clicks
     document.addEventListener("click", handleToggle);
+
     // Listen for keyboard navigation
     document.addEventListener("keydown", handleToggle);
+
+
+
+
     function handleToggle(e) {
 
         let target;
@@ -82,11 +89,14 @@ export function initDropDowns() {
         toggleTopicSnips(target);
     }
 }
+
+
 /*
 =====================================================
 HIDE OTHER TOP-LEVEL DROPDOWNS
 =====================================================
 */
+
 export function hideTopicSnips(currentTopic) {
 
     dropSnips.forEach(el => {
@@ -102,48 +112,70 @@ export function hideTopicSnips(currentTopic) {
         el.classList.add("hide");
     });
 }
+
+
 /*
 =====================================================
 TOGGLE THE DROP-SNIPS BELONGING TO THE BUTTON
 =====================================================
 */
+
 function toggleTopicSnips(dropDown) {
+
     console.log("Clicked dropdown:", dropDown);
+
+
     // Find the .topic that contains this button
-    const topic = dropDown.closest(".topic") ?
-        dropDown.closest(".topic") : dropDown.closest(".topics");
+    const topic = dropDown.closest(".topic");
+
     if (!topic) return;
+
+
     // Find the .drop-snips that is DIRECTLY
     // associated with this .topic
     const topicSnips = topic.querySelector(
         ":scope > .drop-snips"
     );
+
+
     // If this topic doesn't have a drop-snips,
     // there's nothing to toggle.
     if (!topicSnips) return;
+
+
     // Was this dropdown already open?
     const wasOpen = topicSnips.classList.contains("show");
+
+
     /*
     =================================================
     TOP-LEVEL DROPDOWN
     =================================================
+
     Only .topic-title is allowed to hide
     the other top-level dropdowns.
     */
+
     if (dropDown.classList.contains("topic-title")) {
 
         hideTopicSnips(dropDown);
     }
+
+
     /*
     =================================================
     TOGGLE CURRENT DROPDOWN
     =================================================
     */
+
     if (wasOpen) {
+
         // It was open → close it
         topicSnips.classList.remove("show");
         topicSnips.classList.add("hide");
+
     } else {
+
         // It was closed → open it
         topicSnips.classList.remove("hide");
         topicSnips.classList.add("show");
