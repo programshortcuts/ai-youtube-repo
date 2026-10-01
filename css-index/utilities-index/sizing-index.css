@@ -3,6 +3,10 @@
     height: 90vh;
 }
 
+.topics {
+    width: 90%;
+}
+
 a.resource {
     height: 100%;
     /* max-height: 250px; */

@@ -1,8 +1,16 @@
 .topic {
     padding-bottom: 3%;
 }
-.topics-container{
+
+.topics>.drop-down {
+    margin-left: 2%;
+    margin-top: 2%;
 }
+
+.topics-container {
+    margin: 0 2.5%;
+}
+
 .topic>.drop-down {
     /* padding: .5% 0; */
     padding-left: 2%;
