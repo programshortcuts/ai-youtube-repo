@@ -1,5 +1,5 @@
-#mainContainer {
-    width: 100vw !important;
+.main-container {
+    width: 100vw;
     height: 90vh;
 }
 
@@ -25,6 +25,6 @@ canvas {
 
 @media screen and (max-width:720px) {
     .resource {
-        min-width: 100px !important;
+        /* min-width: 100px !important; */
     }
 }

@@ -1,36 +1,44 @@
 * {
     box-sizing: border-box;
 }
-#mainContainer {
+
+.main-container {
     display: flex;
     flex-direction: column;
 }
+
+.topics,
 .topics-container {
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
 }
+
 .drop-snips {
     list-style-type: none;
 }
-.topics-container > .topic {
+
+.topics-container>.topic {
     display: flex;
     flex-direction: column;
 }
+
 .topic>.drop-down {
     display: flex;
 }
-.topics-container > .topic > .sub-topics-container {
+
+.topics-container>.topic>.sub-topics-container {
     display: flex;
     flex-direction: column;
     /* flex-grow: 1; */
     flex-wrap: wrap;
 }
 
-.sub-topics-container > .topic > .sub-resources-container {
+.sub-topics-container>.topic>.sub-resources-container {
     display: flex;
     flex-wrap: wrap;
 }
-.sub-resources-container > a.resource {
-    flex: 0 0 15%;   
+
+.sub-resources-container>a.resource {
+    flex: 0 0 15%;
 }
