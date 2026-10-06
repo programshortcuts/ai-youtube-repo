@@ -4,6 +4,7 @@ let lastLetterPressed = null;
 const backlink = document.querySelector('#backlink');
 const homelink = document.querySelector('#homelink');
 
+
 function initMain(){
     setupGlobalKeyListener();
     initDropDowns()
