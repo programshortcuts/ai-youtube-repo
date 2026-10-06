@@ -1,4 +1,4 @@
-import { letterFocus } from "./letterFocus-txt-nums.js";
+import { letterFocus } from "./nav/letterFocus-index.js";
 import { initDropDowns, hideTopicSnips } from "./ui/drop-downs-index.js";
 let lastLetterPressed = null;
 const backlink = document.querySelector('#backlink');

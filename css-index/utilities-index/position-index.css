@@ -3,6 +3,6 @@
     bottom: 10%;
 }
 .page-wrapper>footer.mobile-footer-header {
-    position: fixed;
+    position: absolute;
     bottom: 0;
 }
