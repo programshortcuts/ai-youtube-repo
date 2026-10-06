@@ -13,7 +13,7 @@ export function letterFocus({ e, focusZone }) {
     const key = e.key.toLowerCase();
     if (key.length !== 1 || !/^[a-z0-9]$/.test(key)) return;
     // Find visible, valid elements
-    const allEls = [...document.querySelectorAll('a, [id],[data-nav-target')].filter(el => {
+    const allEls = [...document.querySelectorAll('a, [id],[data-nav-target]')].filter(el => {
         const rect = el.getBoundingClientRect();
         return el.offsetParent !== null && rect.width > 0 && rect.height > 0;
     });
@@ -22,10 +22,11 @@ export function letterFocus({ e, focusZone }) {
         if(!el.hasAttribute('data-nav-target')){
             const id = el.id?.toLowerCase?.() || '';
             console.log('el')
-            if(id == 'homelink' && !backlink){
-                console.log(id)
-                return homelink
+            if (id === 'homelink' && !backlink && key === 'b') {
+                return true;
             }
+
+            
             return (
                 id.startsWith(key) 
                 // id !== 'targetdiv' &&
