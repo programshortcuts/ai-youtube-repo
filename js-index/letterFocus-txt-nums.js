@@ -54,6 +54,7 @@ addEventListener('keydown', e => {
         if (el.id === 'mainContainer') {
             return letter === 'm';
         }
+        
         const text = getCleanText(el);
         const words = text.split(/\s+/);
 
