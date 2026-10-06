@@ -2,6 +2,7 @@
 let lastLetterPressed = null;
 const backlink = document.querySelector('#backlink');
 const homelink = document.querySelector('#homelink');
+const mainContainer = document.querySelector('#mainContainer')
 
 export function letterFocus({ e, focusZone }) {
     if (!e || !e.key) return;
@@ -58,8 +59,13 @@ export function letterFocus({ e, focusZone }) {
     // Ensure focusability
     if (typeof target.focus !== 'function') {target.setAttribute('tabindex', '-1');
     }
+    if(!target) return
     target.focus()
-    target.scrollIntoView({behavior:"smooth",inline:"center"});
+    if(target == mainContainer){
+        window.scrollTo(0,0)
+        return
+    } 
+    
     console.log('target', target)
     lastLetterPressed = key;
 }
